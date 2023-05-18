@@ -4,7 +4,7 @@ if exists (select name from sysobjects
 
 if exists (select name from sysobjects
 	where name = 'new_MonthlyPriceChgTable')
-	DROP TABLE new_MonthlyPriceChgTab	le
+	DROP TABLE new_MonthlyPriceChgTable
 
 
 SELECT
